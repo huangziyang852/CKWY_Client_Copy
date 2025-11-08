@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
+  m_Name: AssetBundleCollectorSetting
+  m_EditorClassIdentifier: 
+  ShowPackageView: 1
+  ShowEditorAlias: 0
+  UniqueBundleName: 1
+  Packages:
+  - PackageName: Master
+    PackageDesc: Master Data
+    EnableAddressable: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: Master
+      GroupDesc: Master
+      AssetTags: Master
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Download/Master
+        CollectorGUID: 868f84ae7c71675418e19fb5a7fdda78
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+  - PackageName: RemoteResource
+    PackageDesc: 
+    EnableAddressable: 0
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: Images
+      GroupDesc: Images
+      AssetTags: Images
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Download/RemoteResource/Images/BG
+        CollectorGUID: be953693b4fbd314c8203da53f53f54b
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: UI
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Images/UI
+        CollectorGUID: 0de1eb11f35fea341a51e5ed6f550830
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: UI
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Images/Character
+        CollectorGUID: 5dffea8f257c8b9499543ec4f0acc3c6
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Images/Logo
+        CollectorGUID: d70d96da19a336a4986fa641dca4144b
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Images/Battle
+        CollectorGUID: 36a297e8b74c4364d9693c1cd07b1fed
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Battle
+        UserData: 
+    - GroupName: Prefabs
+      GroupDesc: Prefabs
+      AssetTags: Prefabs
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Download/RemoteResource/Prefabs/UiCom
+        CollectorGUID: 3b5863bf75a7b1d4c8a091a29ceb43d7
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: UI
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Prefabs/UiPanel
+        CollectorGUID: 8bce07fea195d6a4199b6bba5a765fb0
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: UI
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Prefabs/UiSpine
+        CollectorGUID: 666525a2373d7ba4087852e5f61426fd
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Prefabs/Battle
+        CollectorGUID: 6e8e126b588482c478044760b0ad9be4
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Battle
+        UserData: 
+    - GroupName: Sounds
+      GroupDesc: Sounds
+      AssetTags: Sounds
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Download/RemoteResource/Sounds/BGM
+        CollectorGUID: b56350e3f8d574845b74cff32b3800ce
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Sounds/Home
+        CollectorGUID: faa4494dec1cecd49a7a07356773ae08
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Sounds/Effect
+        CollectorGUID: 119bdad353477da44a822d9507357ae0
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Battle
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Sounds/UI
+        CollectorGUID: cecb44f30dae2e148aa749d709098862
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Spine
+      GroupDesc: Spine
+      AssetTags: Spine
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Download/RemoteResource/Spine/Battle
+        CollectorGUID: 85a75ec9ba5d0254994e2504b5e3e0f7
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Battle
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Spine/UiSpine/Gacha
+        CollectorGUID: e139ef18072b5cf4b8fd0102a0b05302
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Spine/UiSpine/Home
+        CollectorGUID: 9e65b692e1f27f74a8d7580dcfebee71
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Home
+        UserData: 
+      - CollectPath: Assets/Download/RemoteResource/Spine/LoginAni
+        CollectorGUID: a67cd51fa2880c14a82bca554b19c3cb
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: Login
+        UserData: 

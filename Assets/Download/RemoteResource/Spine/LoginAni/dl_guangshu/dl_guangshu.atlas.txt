@@ -1,0 +1,12 @@
+dl_guangshu.png
+size:318,260
+filter:Linear,Linear
+pma:true
+guang3
+bounds:2,2,257,256
+guangshu_000
+bounds:261,34,24,224
+offsets:2,24,27,256
+guangshu_001
+bounds:287,40,29,218
+offsets:0,18,29,242

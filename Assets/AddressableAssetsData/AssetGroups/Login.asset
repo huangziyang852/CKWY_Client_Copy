@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Login
+  m_EditorClassIdentifier: 
+  m_GroupName: Login
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6aecbcb40da8d724cb11be183b5e6610
+  m_SerializeEntries:
+  - m_GUID: 934dac500ceb5494eabe97f05a9bc7c4
+    m_Address: Assets/Download/Images/BG/Login
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Login
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8a6d69e724667f42befe30587509ece
+    m_Address: Assets/Download/Prefabs/UiPanel/Login
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Login
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5461106426b8c954b864fecbfe035cf9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f30d8a3131df45348a1698f6a57ec4ce, type: 2}
+    - {fileID: 11400000, guid: b3121f2fc4bc1f647b54371bcbcd1d14, type: 2}

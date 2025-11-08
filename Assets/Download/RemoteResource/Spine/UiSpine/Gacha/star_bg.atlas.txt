@@ -1,0 +1,11 @@
+star_bg.png
+size:525,40
+filter:Linear,Linear
+pma:true
+images/tx/lizi1
+bounds:488,2,35,36
+offsets:2,1,39,38
+images/tx/lizi2
+bounds:2,2,36,484
+offsets:4,0,44,485
+rotate:90

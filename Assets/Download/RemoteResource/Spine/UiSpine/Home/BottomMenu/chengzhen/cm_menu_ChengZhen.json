@@ -1,0 +1,386 @@
+{
+  "skeleton": {
+    "hash": "F6hhN4yfuXQ",
+    "spine": "4.1.05",
+    "x": -69,
+    "y": -7.1,
+    "width": 156,
+    "height": 70,
+    "images": "./images/",
+    "audio": "F:/spine/UiSpine/Main/Chengzhen"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone_ChengZhen",
+      "parent": "root"
+    },
+    {
+      "name": "bone_ChengZhen_House1",
+      "parent": "bone_ChengZhen",
+      "length": 41.89,
+      "rotation": 90,
+      "x": -55
+    },
+    {
+      "name": "bone_ChengZhen_House2",
+      "parent": "bone_ChengZhen",
+      "length": 32.27,
+      "rotation": 90,
+      "x": -37.5
+    },
+    {
+      "name": "bone_ChengZhen_House3",
+      "parent": "bone_ChengZhen",
+      "length": 51.83,
+      "rotation": 90,
+      "x": -17
+    },
+    {
+      "name": "bone_ChengZhen_House4",
+      "parent": "bone_ChengZhen",
+      "length": 55.28,
+      "rotation": 90,
+      "x": 26
+    },
+    {
+      "name": "bone_ChengZhen_House5",
+      "parent": "bone_ChengZhen",
+      "length": 18.51,
+      "rotation": 90,
+      "x": 81
+    }
+  ],
+  "slots": [
+    {
+      "name": "ChengZhen_House5",
+      "bone": "bone_ChengZhen_House5",
+      "attachment": "ChengZhen_House5"
+    },
+    {
+      "name": "ChengZhen_House4",
+      "bone": "bone_ChengZhen_House4",
+      "attachment": "ChengZhen_House4"
+    },
+    {
+      "name": "ChengZhen_House3",
+      "bone": "bone_ChengZhen_House3",
+      "attachment": "ChengZhen_House3"
+    },
+    {
+      "name": "ChengZhen_House2",
+      "bone": "bone_ChengZhen_House2",
+      "attachment": "ChengZhen_House2"
+    },
+    {
+      "name": "ChengZhen_House1",
+      "bone": "bone_ChengZhen_House1",
+      "attachment": "ChengZhen_House1"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ChengZhen_House1": {
+          "ChengZhen_House1": {
+            "x": 18.4,
+            "y": 2,
+            "rotation": -90,
+            "width": 24,
+            "height": 51
+          }
+        },
+        "ChengZhen_House2": {
+          "ChengZhen_House2": {
+            "x": 16.4,
+            "y": -1.5,
+            "rotation": -90,
+            "width": 16,
+            "height": 31
+          }
+        },
+        "ChengZhen_House3": {
+          "ChengZhen_House3": {
+            "x": 26.4,
+            "rotation": -90,
+            "width": 20,
+            "height": 51
+          }
+        },
+        "ChengZhen_House4": {
+          "ChengZhen_House4": {
+            "x": 31.4,
+            "y": -5,
+            "rotation": -90,
+            "width": 76,
+            "height": 63
+          }
+        },
+        "ChengZhen_House5": {
+          "ChengZhen_House5": {
+            "x": 8.9,
+            "y": -0.5,
+            "rotation": -90,
+            "width": 11,
+            "height": 18
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "hit": {
+      "bones": {
+        "bone_ChengZhen_House4": {
+          "translate": [
+            {
+              "time": 0.3,
+              "curve": [
+                0.325,
+                0,
+                0.375,
+                0,
+                0.325,
+                0,
+                0.375,
+                6
+              ]
+            },
+            {
+              "time": 0.4,
+              "y": 6,
+              "curve": [
+                0.433,
+                0,
+                0.5,
+                0,
+                0.433,
+                6,
+                0.5,
+                -1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "y": -1,
+              "curve": [
+                0.575,
+                0,
+                0.658,
+                0,
+                0.575,
+                -1,
+                0.658,
+                0
+              ]
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "bone_ChengZhen_House3": {
+          "translate": [
+            {
+              "time": 0.2,
+              "curve": [
+                0.225,
+                0,
+                0.275,
+                0,
+                0.225,
+                0,
+                0.275,
+                7
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": 7,
+              "curve": [
+                0.333,
+                0,
+                0.4,
+                0,
+                0.333,
+                7,
+                0.4,
+                -1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "y": -1,
+              "curve": [
+                0.475,
+                0,
+                0.558,
+                0,
+                0.475,
+                -1,
+                0.558,
+                0
+              ]
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "bone_ChengZhen_House1": {
+          "translate": [
+            {
+              "curve": [
+                0.025,
+                0,
+                0.075,
+                0,
+                0.025,
+                0,
+                0.075,
+                7
+              ]
+            },
+            {
+              "time": 0.1,
+              "y": 7,
+              "curve": [
+                0.133,
+                0,
+                0.2,
+                0,
+                0.133,
+                7,
+                0.2,
+                -1
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": -1,
+              "curve": [
+                0.275,
+                0,
+                0.358,
+                0,
+                0.275,
+                -1,
+                0.358,
+                0
+              ]
+            },
+            {
+              "time": 0.4
+            }
+          ]
+        },
+        "bone_ChengZhen_House5": {
+          "translate": [
+            {
+              "time": 0.4,
+              "curve": [
+                0.425,
+                0,
+                0.475,
+                0,
+                0.425,
+                0,
+                0.475,
+                7
+              ]
+            },
+            {
+              "time": 0.5,
+              "y": 7,
+              "curve": [
+                0.533,
+                0,
+                0.6,
+                0,
+                0.533,
+                7,
+                0.6,
+                -1
+              ]
+            },
+            {
+              "time": 0.6333,
+              "y": -1,
+              "curve": [
+                0.675,
+                0,
+                0.758,
+                0,
+                0.675,
+                -1,
+                0.758,
+                0
+              ]
+            },
+            {
+              "time": 0.8
+            }
+          ]
+        },
+        "bone_ChengZhen_House2": {
+          "translate": [
+            {
+              "time": 0.1,
+              "curve": [
+                0.125,
+                0,
+                0.175,
+                0,
+                0.125,
+                0,
+                0.175,
+                7
+              ]
+            },
+            {
+              "time": 0.2,
+              "y": 7,
+              "curve": [
+                0.233,
+                0,
+                0.3,
+                0,
+                0.233,
+                7,
+                0.3,
+                -1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "y": -1,
+              "curve": [
+                0.375,
+                0,
+                0.458,
+                0,
+                0.375,
+                -1,
+                0.458,
+                0
+              ]
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        },
+        "bone_ChengZhen": {
+          "scale": [
+            {
+              "time": 1.0667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

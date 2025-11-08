@@ -1,0 +1,14 @@
+ZhaoHuan_PuTong.png
+size:714,431
+filter:Linear,Linear
+pma:true
+ZhaoHuan_PT_FZ
+bounds:498,41,388,54
+offsets:0,0,388,55
+rotate:90
+ZhaoHuan_PT_Ka1
+bounds:2,2,494,427
+offsets:20,5,553,432
+ZhaoHuan_PT_Ka2
+bounds:554,263,158,166
+offsets:7,0,172,166

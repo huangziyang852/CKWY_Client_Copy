@@ -1,0 +1,16 @@
+cm_menu_ChengZhen.png
+size:68,133
+filter:Linear,Linear
+pma:true
+ChengZhen_House1
+bounds:2,2,24,51
+ChengZhen_House2
+bounds:50,23,16,30
+offsets:0,0,16,31
+ChengZhen_House3
+bounds:28,2,20,51
+ChengZhen_House4
+bounds:2,55,76,63
+rotate:90
+ChengZhen_House5
+bounds:50,3,11,18

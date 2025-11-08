@@ -1,0 +1,10 @@
+cm_menu_GongHui.png
+size:89,68
+filter:Linear,Linear
+pma:true
+GongHui_Flag
+bounds:2,2,64,65
+rotate:90
+GongHui_House
+bounds:69,34,18,32
+offsets:0,0,18,35

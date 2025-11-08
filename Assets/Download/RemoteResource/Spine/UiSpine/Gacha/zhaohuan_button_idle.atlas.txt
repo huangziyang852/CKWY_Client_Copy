@@ -1,0 +1,16 @@
+zhaohuan_button_idle.png
+size:285,565
+filter:Linear,Linear
+pma:true
+images/tx/gy7
+bounds:2,2,394,281
+offsets:1,19,396,320
+rotate:90
+images/tx/kuang1
+bounds:48,496,209,67
+images/tx/kuang2
+bounds:2,398,236,96
+offsets:1,1,238,98
+images/tx/yuan
+bounds:2,519,44,44
+offsets:0,0,44,45

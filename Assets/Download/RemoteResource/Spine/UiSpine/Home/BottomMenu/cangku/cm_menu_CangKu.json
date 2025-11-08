@@ -1,0 +1,290 @@
+{
+  "skeleton": {
+    "hash": "OvmEcnlF9As",
+    "spine": "4.1.05",
+    "x": -51,
+    "y": -7.1,
+    "width": 97,
+    "height": 56,
+    "images": "./images/",
+    "audio": "F:/spine/UiSpine/Main/Cangku"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone_CangKu",
+      "parent": "root"
+    },
+    {
+      "name": "bone_CangKu_House1",
+      "parent": "bone_CangKu",
+      "length": 25.7,
+      "rotation": 90,
+      "x": -40
+    },
+    {
+      "name": "bone_CangKu_House2",
+      "parent": "bone_CangKu",
+      "length": 48.63,
+      "rotation": 90,
+      "x": -13
+    },
+    {
+      "name": "bone_CangKu_House3",
+      "parent": "bone_CangKu",
+      "length": 36.08,
+      "rotation": 90,
+      "x": 25
+    }
+  ],
+  "slots": [
+    {
+      "name": "CangKu_House3",
+      "bone": "bone_CangKu_House3",
+      "attachment": "CangKu_House3"
+    },
+    {
+      "name": "CangKu_House2",
+      "bone": "bone_CangKu_House2",
+      "attachment": "CangKu_House2"
+    },
+    {
+      "name": "CangKu_House1",
+      "bone": "bone_CangKu_House1",
+      "attachment": "CangKu_House1"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "CangKu_House1": {
+          "CangKu_House1": {
+            "x": 10.4,
+            "y": 3,
+            "rotation": -90,
+            "width": 16,
+            "height": 35
+          }
+        },
+        "CangKu_House2": {
+          "CangKu_House2": {
+            "x": 20.9,
+            "y": -1,
+            "rotation": -90,
+            "width": 56,
+            "height": 56
+          }
+        },
+        "CangKu_House3": {
+          "CangKu_House3": {
+            "x": 14.9,
+            "rotation": -90,
+            "width": 42,
+            "height": 44
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "hit": {
+      "bones": {
+        "bone_CangKu_House1": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "curve": [
+                0.092,
+                0,
+                0.142,
+                0,
+                0.092,
+                0,
+                0.142,
+                5
+              ]
+            },
+            {
+              "time": 0.1667,
+              "y": 5,
+              "curve": [
+                0.2,
+                0,
+                0.267,
+                0,
+                0.2,
+                5,
+                0.267,
+                -1.5
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": -1.5,
+              "curve": [
+                0.325,
+                0,
+                0.375,
+                0,
+                0.325,
+                -1.5,
+                0.375,
+                0.5
+              ]
+            },
+            {
+              "time": 0.4,
+              "y": 0.5,
+              "curve": [
+                0.433,
+                0,
+                0.5,
+                0,
+                0.433,
+                0.5,
+                0.5,
+                0
+              ]
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "bone_CangKu_House3": {
+          "translate": [
+            {
+              "time": 0.1333,
+              "curve": [
+                0.158,
+                0,
+                0.208,
+                0,
+                0.158,
+                0,
+                0.208,
+                5
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": 5,
+              "curve": [
+                0.267,
+                0,
+                0.333,
+                0,
+                0.267,
+                5,
+                0.333,
+                -1.5
+              ]
+            },
+            {
+              "time": 0.3667,
+              "y": -1.5,
+              "curve": [
+                0.392,
+                0,
+                0.442,
+                0,
+                0.392,
+                -1.5,
+                0.442,
+                0.5
+              ]
+            },
+            {
+              "time": 0.4667,
+              "y": 0.5,
+              "curve": [
+                0.5,
+                0,
+                0.567,
+                0,
+                0.5,
+                0.5,
+                0.567,
+                0
+              ]
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "bone_CangKu_House2": {
+          "translate": [
+            {
+              "curve": [
+                0.025,
+                0,
+                0.075,
+                0,
+                0.025,
+                0,
+                0.075,
+                5
+              ]
+            },
+            {
+              "time": 0.1,
+              "y": 5,
+              "curve": [
+                0.133,
+                0,
+                0.2,
+                0,
+                0.133,
+                5,
+                0.2,
+                -1.5
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": -1.5,
+              "curve": [
+                0.258,
+                0,
+                0.308,
+                0,
+                0.258,
+                -1.5,
+                0.308,
+                0.5
+              ]
+            },
+            {
+              "time": 0.3333,
+              "y": 0.5,
+              "curve": [
+                0.367,
+                0,
+                0.433,
+                0,
+                0.367,
+                0.5,
+                0.433,
+                0
+              ]
+            },
+            {
+              "time": 0.4667
+            }
+          ]
+        },
+        "bone_CangKu": {
+          "scale": [
+            {
+              "time": 1.0667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Gacha
+  m_EditorClassIdentifier: 
+  m_GroupName: Gacha
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4b68e2c5b203dd84fa5796ef9af45f7c
+  m_SerializeEntries:
+  - m_GUID: c5dbb6edec8488f42a12f9218f9a40a7
+    m_Address: Assets/Download/Prefabs/UiPanel/Gacha
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38284f43d6d644d6ea21d0b70c9dcd96
+    m_Address: Assets/Download/Images/UI/Gacha
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5461106426b8c954b864fecbfe035cf9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a6dd82f2bfad0154ab91015302b4c099, type: 2}
+    - {fileID: 11400000, guid: 83f331bbb0219e34185d9804c8213f17, type: 2}

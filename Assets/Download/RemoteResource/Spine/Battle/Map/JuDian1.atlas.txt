@@ -1,0 +1,9 @@
+JuDian1.png
+size:139,103
+filter:Linear,Linear
+pma:true
+JuDian1_Flag
+bounds:127,70,31,10
+rotate:90
+JuDian1_House
+bounds:2,2,123,99

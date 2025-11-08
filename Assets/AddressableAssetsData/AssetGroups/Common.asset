@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f579f9d5614b621409a0a9ac35db6be6
+  m_SerializeEntries:
+  - m_GUID: ba8efb32c43852e40ab592b4fe61cf17
+    m_Address: Assets/Download/Images/UI/Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d70d96da19a336a4986fa641dca4144b
+    m_Address: Assets/Download/Images/Logo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65aa72a4decf0e34eb72b62e809a0145
+    m_Address: Assets/Download/Prefabs/UiCom/Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f3f7952f9de498498e1f1fd0f0696ef
+    m_Address: Assets/Download/Prefabs/UiPanel/Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5461106426b8c954b864fecbfe035cf9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 92d2ae59f8c2e5c438193aaa7cdc03be, type: 2}
+    - {fileID: 11400000, guid: 99c2b28a471f45d45a5a1b9054f31a4b, type: 2}

@@ -1,0 +1,13 @@
+ZhaoHuan_YouQing.png
+size:831,473
+filter:Linear,Linear
+pma:true
+ZhaoHuan_PT_FZ
+bounds:775,83,388,54
+offsets:0,0,388,55
+rotate:90
+ZhaoHuan_YQ_Ka1
+bounds:2,2,508,469
+offsets:15,4,553,473
+ZhaoHuan_YQ_Ka2
+bounds:512,207,261,264

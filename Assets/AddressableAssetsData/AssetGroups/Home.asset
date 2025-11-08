@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Home
+  m_EditorClassIdentifier: 
+  m_GroupName: Home
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5d3142afa0c47b24c958c997f5744db8
+  m_SerializeEntries:
+  - m_GUID: c63b9964316d30742bb896f1f80bd315
+    m_Address: Assets/Download/Images/UI/Home
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 556ec2f6294fa48a295fabf6a71b5381
+    m_Address: Assets/Download/Images/BG/Home
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 145bd0ee4ee6f9442aa493c2d996fcee
+    m_Address: Assets/Download/Prefabs/UiPanel/Home
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faa4494dec1cecd49a7a07356773ae08
+    m_Address: Assets/Download/Sounds/Home
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5461106426b8c954b864fecbfe035cf9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3dd7af4d112241f46b49d46da7c3b242, type: 2}
+    - {fileID: 11400000, guid: 1eb8cf846d519354b92ab2b580b70e0a, type: 2}

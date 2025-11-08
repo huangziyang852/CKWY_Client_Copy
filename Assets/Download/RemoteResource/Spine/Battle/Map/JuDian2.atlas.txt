@@ -1,0 +1,9 @@
+JuDian2.png
+size:179,97
+filter:Linear,Linear
+pma:true
+JuDian2_House
+bounds:2,2,101,93
+JuDian2_Wheel
+bounds:105,22,73,72
+rotate:90

@@ -1,0 +1,13 @@
+JuDian8.png
+size:286,173
+filter:Linear,Linear
+pma:true
+images/JuDian8
+bounds:183,40,131,101
+rotate:90
+images/j
+bounds:2,2,179,169
+offsets:13,10,205,191
+images/lizi
+bounds:183,28,10,10
+offsets:1,0,11,11

@@ -1,0 +1,623 @@
+{
+  "skeleton": {
+    "hash": "fL/ZElO4HbM",
+    "spine": "4.1.05",
+    "x": -80,
+    "y": -7.1,
+    "width": 156,
+    "height": 61,
+    "images": "./images/",
+    "audio": "F:/spine/UiSpine/Main/Moshen"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone_MoShen",
+      "parent": "root"
+    },
+    {
+      "name": "bone_MoShen_House4",
+      "parent": "bone_MoShen",
+      "length": 50.99,
+      "rotation": 90,
+      "x": -1.99
+    },
+    {
+      "name": "bone_MoShen_House1",
+      "parent": "bone_MoShen",
+      "length": 27.35,
+      "rotation": 90,
+      "x": -75.5
+    },
+    {
+      "name": "bone_MoShen_House2",
+      "parent": "bone_MoShen",
+      "length": 21.43,
+      "rotation": 90,
+      "x": -61.55
+    },
+    {
+      "name": "bone_MoShen_House3",
+      "parent": "bone_MoShen",
+      "length": 21.01,
+      "rotation": 90,
+      "x": -45.34
+    },
+    {
+      "name": "bone_MoShen_House5",
+      "parent": "bone_MoShen",
+      "length": 29.17,
+      "rotation": 90,
+      "x": 42.18
+    },
+    {
+      "name": "bone_MoShen_House6",
+      "parent": "bone_MoShen",
+      "length": 23.47,
+      "rotation": 90,
+      "x": 58.71
+    },
+    {
+      "name": "bone_MoShen_House7",
+      "parent": "bone_MoShen",
+      "length": 30.83,
+      "rotation": 90,
+      "x": 71.76
+    }
+  ],
+  "slots": [
+    {
+      "name": "MoShen_House7",
+      "bone": "bone_MoShen_House7",
+      "attachment": "MoShen_House7"
+    },
+    {
+      "name": "MoShen_House6",
+      "bone": "bone_MoShen_House6",
+      "attachment": "MoShen_House6"
+    },
+    {
+      "name": "MoShen_House5",
+      "bone": "bone_MoShen_House5",
+      "attachment": "MoShen_House5"
+    },
+    {
+      "name": "MoShen_House4",
+      "bone": "bone_MoShen_House4",
+      "attachment": "MoShen_House4"
+    },
+    {
+      "name": "MoShen_House3",
+      "bone": "bone_MoShen_House3",
+      "attachment": "MoShen_House3"
+    },
+    {
+      "name": "MoShen_House2",
+      "bone": "bone_MoShen_House2",
+      "attachment": "MoShen_House2"
+    },
+    {
+      "name": "MoShen_House1",
+      "bone": "bone_MoShen_House1",
+      "attachment": "MoShen_House1"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "MoShen_House1": {
+          "MoShen_House1": {
+            "x": 12.9,
+            "y": -2,
+            "rotation": -90,
+            "width": 13,
+            "height": 40
+          }
+        },
+        "MoShen_House2": {
+          "MoShen_House2": {
+            "x": 7.9,
+            "y": -0.05,
+            "rotation": -90,
+            "width": 7,
+            "height": 30
+          }
+        },
+        "MoShen_House3": {
+          "MoShen_House3": {
+            "x": 7.4,
+            "y": -0.34,
+            "rotation": -90,
+            "width": 10,
+            "height": 29
+          }
+        },
+        "MoShen_House4": {
+          "MoShen_House4": {
+            "x": 23.4,
+            "y": -1.49,
+            "rotation": -90,
+            "width": 69,
+            "height": 61
+          }
+        },
+        "MoShen_House5": {
+          "MoShen_House5": {
+            "x": 13.4,
+            "y": -0.32,
+            "rotation": -90,
+            "width": 15,
+            "height": 41
+          }
+        },
+        "MoShen_House6": {
+          "MoShen_House6": {
+            "x": 10.4,
+            "y": 0.21,
+            "rotation": -90,
+            "width": 7,
+            "height": 35
+          }
+        },
+        "MoShen_House7": {
+          "MoShen_House7": {
+            "x": 16.4,
+            "y": 2.26,
+            "rotation": -90,
+            "width": 13,
+            "height": 47
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "hit": {
+      "bones": {
+        "bone_MoShen_House7": {
+          "translate": [
+            {
+              "time": 0.2,
+              "curve": [
+                0.225,
+                0,
+                0.275,
+                0,
+                0.225,
+                0,
+                0.275,
+                5
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": 5,
+              "curve": [
+                0.333,
+                0,
+                0.4,
+                0,
+                0.333,
+                5,
+                0.4,
+                -2
+              ]
+            },
+            {
+              "time": 0.4333,
+              "y": -2,
+              "curve": [
+                0.467,
+                0,
+                0.533,
+                0,
+                0.467,
+                -2,
+                0.533,
+                0.5
+              ]
+            },
+            {
+              "time": 0.5667,
+              "y": 0.5,
+              "curve": [
+                0.608,
+                0,
+                0.692,
+                0,
+                0.608,
+                0.5,
+                0.692,
+                0
+              ]
+            },
+            {
+              "time": 0.7333
+            }
+          ]
+        },
+        "bone_MoShen_House6": {
+          "translate": [
+            {
+              "time": 0.1333,
+              "curve": [
+                0.158,
+                0,
+                0.208,
+                0,
+                0.158,
+                0,
+                0.208,
+                5
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": 5,
+              "curve": [
+                0.267,
+                0,
+                0.333,
+                0,
+                0.267,
+                5,
+                0.333,
+                -2
+              ]
+            },
+            {
+              "time": 0.3667,
+              "y": -2,
+              "curve": [
+                0.4,
+                0,
+                0.467,
+                0,
+                0.4,
+                -2,
+                0.467,
+                0.5
+              ]
+            },
+            {
+              "time": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.542,
+                0,
+                0.625,
+                0,
+                0.542,
+                0.5,
+                0.625,
+                0
+              ]
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone_MoShen_House5": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "curve": [
+                0.092,
+                0,
+                0.142,
+                0,
+                0.092,
+                0,
+                0.142,
+                5
+              ]
+            },
+            {
+              "time": 0.1667,
+              "y": 5,
+              "curve": [
+                0.2,
+                0,
+                0.267,
+                0,
+                0.2,
+                5,
+                0.267,
+                -2
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": -2,
+              "curve": [
+                0.333,
+                0,
+                0.4,
+                0,
+                0.333,
+                -2,
+                0.4,
+                0.5
+              ]
+            },
+            {
+              "time": 0.4333,
+              "y": 0.5,
+              "curve": [
+                0.475,
+                0,
+                0.558,
+                0,
+                0.475,
+                0.5,
+                0.558,
+                0
+              ]
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "bone_MoShen_House4": {
+          "translate": [
+            {
+              "curve": [
+                0.025,
+                0,
+                0.075,
+                0,
+                0.025,
+                0,
+                0.075,
+                5
+              ]
+            },
+            {
+              "time": 0.1,
+              "y": 5,
+              "curve": [
+                0.133,
+                0,
+                0.2,
+                0,
+                0.133,
+                5,
+                0.2,
+                -2
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": -2,
+              "curve": [
+                0.267,
+                0,
+                0.333,
+                0,
+                0.267,
+                -2,
+                0.333,
+                0.5
+              ]
+            },
+            {
+              "time": 0.3667,
+              "y": 0.5,
+              "curve": [
+                0.408,
+                0,
+                0.492,
+                0,
+                0.408,
+                0.5,
+                0.492,
+                0
+              ]
+            },
+            {
+              "time": 0.5333
+            }
+          ]
+        },
+        "bone_MoShen_House3": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "curve": [
+                0.092,
+                0,
+                0.142,
+                0,
+                0.092,
+                0,
+                0.142,
+                5
+              ]
+            },
+            {
+              "time": 0.1667,
+              "y": 5,
+              "curve": [
+                0.2,
+                0,
+                0.267,
+                0,
+                0.2,
+                5,
+                0.267,
+                -2
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": -2,
+              "curve": [
+                0.333,
+                0,
+                0.4,
+                0,
+                0.333,
+                -2,
+                0.4,
+                0.5
+              ]
+            },
+            {
+              "time": 0.4333,
+              "y": 0.5,
+              "curve": [
+                0.475,
+                0,
+                0.558,
+                0,
+                0.475,
+                0.5,
+                0.558,
+                0
+              ]
+            },
+            {
+              "time": 0.6
+            }
+          ]
+        },
+        "bone_MoShen_House2": {
+          "translate": [
+            {
+              "time": 0.1333,
+              "curve": [
+                0.158,
+                0,
+                0.208,
+                0,
+                0.158,
+                0,
+                0.208,
+                5
+              ]
+            },
+            {
+              "time": 0.2333,
+              "y": 5,
+              "curve": [
+                0.267,
+                0,
+                0.333,
+                0,
+                0.267,
+                5,
+                0.333,
+                -2
+              ]
+            },
+            {
+              "time": 0.3667,
+              "y": -2,
+              "curve": [
+                0.4,
+                0,
+                0.467,
+                0,
+                0.4,
+                -2,
+                0.467,
+                0.5
+              ]
+            },
+            {
+              "time": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.542,
+                0,
+                0.625,
+                0,
+                0.542,
+                0.5,
+                0.625,
+                0
+              ]
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone_MoShen_House1": {
+          "translate": [
+            {
+              "time": 0.2,
+              "curve": [
+                0.225,
+                0,
+                0.275,
+                0,
+                0.225,
+                0,
+                0.275,
+                5
+              ]
+            },
+            {
+              "time": 0.3,
+              "y": 5,
+              "curve": [
+                0.333,
+                0,
+                0.4,
+                0,
+                0.333,
+                5,
+                0.4,
+                -2
+              ]
+            },
+            {
+              "time": 0.4333,
+              "y": -2,
+              "curve": [
+                0.467,
+                0,
+                0.533,
+                0,
+                0.467,
+                -2,
+                0.533,
+                0.5
+              ]
+            },
+            {
+              "time": 0.5667,
+              "y": 0.5,
+              "curve": [
+                0.608,
+                0,
+                0.692,
+                0,
+                0.608,
+                0.5,
+                0.692,
+                0
+              ]
+            },
+            {
+              "time": 0.7333
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "time": 1.0667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

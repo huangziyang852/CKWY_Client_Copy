@@ -1,0 +1,17 @@
+JuDian7.png
+size:335,84
+filter:Linear,Linear
+pma:true
+JuDian7_Head
+bounds:275,14,58,68
+JuDian7_House
+bounds:89,9,114,73
+k01
+bounds:205,22,68,60
+offsets:7,6,82,71
+k02
+bounds:2,2,85,80
+offsets:11,10,108,101
+lizi
+bounds:205,10,10,10
+offsets:1,0,11,11

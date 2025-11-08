@@ -1,0 +1,16 @@
+ZhaoHuan_GaoJi.png
+size:773,403
+filter:Linear,Linear
+pma:true
+ZhaoHuan_GJ_Ka1
+bounds:2,2,494,399
+offsets:20,5,553,404
+ZhaoHuan_GJ_Ka2
+bounds:498,104,175,297
+ZhaoHuan_GJ_Ka3
+bounds:498,2,100,217
+rotate:90
+ZhaoHuan_PT_FZ
+bounds:717,13,388,54
+offsets:0,0,388,55
+rotate:90

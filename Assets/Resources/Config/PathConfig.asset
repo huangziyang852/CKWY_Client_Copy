@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b64666bf321324d84f415246f06f5c, type: 3}
+  m_Name: PathConfig
+  m_EditorClassIdentifier: 
+  pathsCategories:
+  - categoryName: Ui
+    entries:
+    - key: LoadingPanel
+      path: Prefabs/UiPanel/LoadingPanel
+    - key: LoginPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Login/LoginPanel.prefab
+    - key: RigitserPopup
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Login/RigisterPopup.prefab
+    - key: SystemNotification
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Common/SystemNotification.prefab
+    - key: HomePanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Home/HomePanel.prefab
+    - key: GuildPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Home/GuildPanel.prefab
+    - key: HeroListPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Hero/HeroListPanel.prefab
+    - key: GachaPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Gacha/GachaPanel.prefab
+    - key: BattleMapPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Battle/BattleMapPanel.prefab
+    - key: GuajiPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Battle/GuajiPanel.prefab
+    - key: HeroShowPopup
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Gacha/HeroShowPopUp.prefab
+    - key: ItemListPanel
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Item/ItemListPanel.prefab
+    - key: RewardCommonPopup
+      path: Assets/Download/RemoteResource/Prefabs/UiPanel/Common/RewardCommonPopup.prefab
+  - categoryName: ServerIcon
+    entries:
+    - key: maintenance
+      path: Images/UI/Login/dl_tag_weihu
+    - key: new
+      path: Images/UI/Login/dl_tag_xinfu
+    - key: hot
+      path: Images/UI/Login/dl_tag_huobao
+  - categoryName: CampIcon
+    entries:
+    - key: red
+      path: Images/UI/HeroGrid/cm_icon_ZhenYing4
+    - key: blue
+      path: Images/UI/HeroGrid/cm_icon_ZhenYing5
+    - key: green
+      path: Images/UI/HeroGrid/cm_icon_ZhenYing5
+    - key: yellow
+      path: Images/UI/HeroGrid/cm_icon_ZhenYing1
+    - key: purple
+      path: Images/UI/HeroGrid/cm_icon_ZhenYing0
+  - categoryName: HeroImagePath
+    entries:
+    - key: Head
+      path: Assets/Download/RemoteResource/Images/Character/HeroIcon/
+  - categoryName: Sound
+    entries:
+    - key: Home
+      path: Assets/Download/RemoteResource/Sounds/Home/city1.mp3
+    - key: World
+      path: Assets/Download/RemoteResource/Sounds/BGM/guaji.mp3

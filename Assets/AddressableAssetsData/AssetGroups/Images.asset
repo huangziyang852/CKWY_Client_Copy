@@ -1,0 +1,648 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Images
+  m_EditorClassIdentifier: 
+  m_GroupName: Images
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4e27c83e7a2666744890650eef99f0af
+  m_SerializeEntries:
+  - m_GUID: 8d4d7aad99a6e48658168a869ba806a7
+    m_Address: Assets/Resources/Download/Images/heroIcon/image_head_304002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - HeroIcon
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98243bd3fd3a1694da14f3a0785bad4a
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_101001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dfc86d5bd4e7c241897248d029e16d1
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_102001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94b1be9d9ebc434e9e9d1158ac7b6ba
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_103001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc1c6f7f79f4d404781ae23dbe12979d
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_104002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 284c6ef519440fb4a94cfa8e772be8a5
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_104003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd9fc106bf09926468453b35f5e48bc7
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6abcd386132bc514f8eadb200d2978e1
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc0e2259226fb8b428d5e432f2806828
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d087b2d2d0353240a91745b96107926
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8371cf0bfb2ffb24498ecefbfbf891d4
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105008.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2fe159e1552b6e4dbafe996f875b726
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105009.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dceb211de2a103747b558bdbce0f6b41
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105010.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f68ed5281bdac54291b48b2fa12767b
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105011.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19ab40d9fa6beb944bcf67ad265ed240
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_105012.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f9af685e3d567344b3a2c0e00cacde0
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_201001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61dfaae22408d39439c818dbb4900219
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_202001 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 343d608cfe087994396133cb14488be3
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_202001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f2cfcb2c76efa5478d0b5fb4482e999
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_203001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e543575c52f31764baf0d1f52b13f5d4
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_204001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f3ce9709e32c8944a50603e96f876a6
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_204002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0c7d81d94456b1459dd53996010cdda
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_204003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9de493373939d7c4196106ca6119d1d8
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fd52a0adb1416c439468a1bfca236a1
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 909c205489165084782c62dedcb15612
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4059a00a2b977d44bb9332cecc0fe083
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dd1b08fceb1a7e44a99e09ad2a10ebf
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205008.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a70c7bd2a336d414199602375e66ac21
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205009.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df907fa41844a4b40879a0f3e6038208
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205010.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31771084c1e62a94dbf35aa4470c48db
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205011.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 164ab32c6fa49804799d06781116cfac
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205012.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22782b223c7003e49801a7cb3f6c917e
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_205013.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b54a5bbd3ac74a4494c78e213d030ab
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_301001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38594c2bbeebb264e87cd911a4352594
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_302001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 417fb21eb552a8a4e9588781f6901541
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_303001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba3b5f861a66cb4492ad9a07b1389c8
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_304001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6d7a5680a04cbb46854b2ce8f63500b
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_304002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eaa280f8ce56794a93b557dc43126df
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_304003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc91dbc7746eef9438f812f9112de788
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 506be71cbf5221c4c872ff62244a3a1f
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413e1e406db8a75418fa128d3364fd55
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65b751197101e9c45af54b4dd3443aa4
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f7df9428670e184facae5fb74e34f3e
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305008.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df79c7ea14a139848ad1919757989531
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305009.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cb5ebc8267fd6c44b7234fb10127ecc
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305010.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76089b42df672541aab64f5a6e9801f
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305011.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71cbf49b67ac20c489761dfd929e0f09
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305012.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 833a9b2a73c32d64a897b86fdc6bc837
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_305013.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53c72ad40d46c604ea6c4a431f018ab9
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_403001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 264a9ca327ee4bf4186cdeb8550fccd9
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_404001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95cd11aff4d28d24c978df9a0a8a5549
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_404002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fde4b98d36f1944c84681052b9888f1
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6094cf6e5ed491c4982c8aa5668fea7e
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02a2996e99553814781dc62f18918445
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b6be80add9421c47a839cf7fcce4a6d
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 550da045b186e434f9c08f7d81bc0133
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca3f49d40f48fce4b9e86df403f6d3ec
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405008.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1a5e345944fe0041957a162c44b0ba9
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_405010.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 934d814774a92a444afca7cbd3887aa7
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_503001 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b91792296911dd4e972c5d41bc28794
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_503001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af16612694f27094f8a5b56172a813f4
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_504001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cb05d34560a2824ea07dd912302305f
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_504002.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8329b1514fc22e244bfc046cc30c6745
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505003.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4cd9ac38e7ad144ca71337420e1afac
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505004.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90714124831972c44a2bf4da3ea273d8
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505005.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b08cbd6867bbfb489a74b80687e7532
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505006.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01a5bd6cd768ee54c93e0907773b0c4e
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505007.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a6d67145dbb1a34abd6cc6df36f5b44
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505008.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c77730b0fce5c7b4a8e2cc2febcecbf9
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505009.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 735b44d41bd5e9343854e636da519ac4
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_505011.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f7a5982b8d7c9f429453d9f7e851c9a
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_605001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6988b46b78e9634e9ecc1e8d1050ea8
+    m_Address: Assets/Resources/Download/Images/stand/image_stand_image_stand_104001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters
+    - Stand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b683faf6b3dc9cb4395a3ffd27ea8210
+    m_Address: Assets/Download/Images/BG/Loading/00/bg.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    - BG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84ab4ddc825a3274e88cc017996c7a07
+    m_Address: Assets/Download/Images/BG/Loading/01/bg.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    - BG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 894278c63f1691649b3c8a1e04fcee73
+    m_Address: Assets/Download/Images/BG/Loading/01/loding.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    - BG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebb128b99f34d4298a83208a1ba5f9e2
+    m_Address: Assets/Download/Images/UI/Gacha/zh_bg.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c2d280f9bc8847f79f7091389372e62
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_youqingon.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5064f9476f1b04fc38be0c1862f77ec4
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_putongoff.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2932363fcdb0c47a29c186ab64976b6d
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_xianzhioff.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04de3699305984aa29d6089e1173a5f6
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_youqingoff.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcb54398d05f34944bbcdc5df801645c
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_xianzhion.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b120ef32a73346b2aca9ba865e218cb
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_gaojion.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb923078166f14b5b87f185e96452e93
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_putongon.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37da56a22567a4b3184a9b5333614433
+    m_Address: Assets/Download/Images/UI/Gacha/zh_btn_gaojioff.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 819b0846b77a47e4ba8ca0d0a2cd6a1b
+    m_Address: Assets/Download/Images/UI/Gacha/zhzs_image_beijingtiao.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 157cadb1d430a1a40bc8917baabe5e25
+    m_Address: Assets/Download/Images/UI/Gacha/zhzs_bg_wumoxing.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Gacha
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a50fd689aa020114ba7b2d713a7b2605
+    m_Address: Assets/Download/Images/UI/Login/dl_tag_huobao.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Login
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7a23c0bd99331f44972bc5356ff4885
+    m_Address: Assets/Download/Images/UI/Login/dl_tag_weihu.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Login
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475afd2f5695bd64480d793efcd22a9e
+    m_Address: Assets/Download/Images/UI/Login/dl_tag_xinfu.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    - Login
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5461106426b8c954b864fecbfe035cf9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a57dd51850c7ac64cbaddb8e02a80ece, type: 2}
+    - {fileID: 11400000, guid: ec5b46d90b972f94cb38af5083722982, type: 2}

@@ -1,0 +1,11 @@
+zhaohuan_take.png
+size:268,143
+filter:Linear,Linear
+pma:true
+images/tx/gy5
+bounds:143,17,124,123
+offsets:2,2,128,127
+rotate:90
+images/tx/lizi4
+bounds:2,2,139,139
+offsets:5,6,149,150

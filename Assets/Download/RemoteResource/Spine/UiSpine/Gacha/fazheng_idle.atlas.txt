@@ -1,0 +1,14 @@
+fazheng_idle.png
+size:307,260
+filter:Linear,Linear
+pma:true
+images/tx/lizi5_000
+bounds:260,181,31,30
+images/tx/lizi5_001
+bounds:260,149,31,30
+images/tx/lizi5_002
+bounds:260,213,45,45
+offsets:1,1,47,47
+images/tx/zaobo1
+bounds:2,2,256,256
+offsets:1,1,257,257

@@ -1,0 +1,9 @@
+JiaDiSi_attack_zidan.png
+size:621,105
+filter:Linear,Linear
+pma:true
+tx/zidan1
+bounds:2,2,440,101
+offsets:15,4,466,109
+tx/zidan2
+bounds:444,55,175,48

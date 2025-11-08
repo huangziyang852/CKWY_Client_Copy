@@ -1,0 +1,12 @@
+cm_menu_CangKu.png
+size:106,64
+filter:Linear,Linear
+pma:true
+CangKu_House1
+bounds:60,2,16,35
+rotate:90
+CangKu_House2
+bounds:2,6,56,56
+CangKu_House3
+bounds:60,20,42,44
+rotate:90

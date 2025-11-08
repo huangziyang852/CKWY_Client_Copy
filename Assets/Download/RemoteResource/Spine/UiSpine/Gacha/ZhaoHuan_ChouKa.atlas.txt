@@ -1,0 +1,13 @@
+ZhaoHuan_ChouKa.png
+size:829,144
+filter:Linear,Linear
+pma:true
+ZhaoHuan_FZ
+bounds:2,58,494,84
+offsets:20,5,553,91
+ZhaoHuan_PT_FZ
+bounds:2,2,388,54
+offsets:0,0,388,55
+zh_image_kabei0
+bounds:498,33,109,329
+rotate:90

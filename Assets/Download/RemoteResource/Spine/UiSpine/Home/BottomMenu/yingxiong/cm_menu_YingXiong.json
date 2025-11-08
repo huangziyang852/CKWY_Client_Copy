@@ -1,0 +1,837 @@
+{
+  "skeleton": {
+    "hash": "vrgzNSYRYFE",
+    "spine": "4.1.05",
+    "x": -46,
+    "y": -7.1,
+    "width": 98,
+    "height": 68,
+    "images": "./images/",
+    "audio": "F:/spine/UiSpine/Main/Yingxiong"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone_YingXiong",
+      "parent": "root"
+    },
+    {
+      "name": "bone_YingXiong_Body",
+      "parent": "bone_YingXiong",
+      "length": 57.12,
+      "rotation": 90,
+      "x": -13.7
+    },
+    {
+      "name": "bone_YingXiong_Sword",
+      "parent": "bone_YingXiong",
+      "length": 33.75,
+      "rotation": -90,
+      "x": -13.7,
+      "y": 30
+    },
+    {
+      "name": "YingXiong_Hand_L",
+      "parent": "bone_YingXiong_Sword",
+      "rotation": 90,
+      "y": -0.1,
+      "color": "ff3f00ff"
+    },
+    {
+      "name": "bone_YingXiong_Arm_L",
+      "parent": "bone_YingXiong_Body",
+      "length": 20.06,
+      "rotation": 136.05,
+      "x": 44.67,
+      "y": 8.2
+    },
+    {
+      "name": "bone_YingXiong_Forearm_L",
+      "parent": "bone_YingXiong_Arm_L",
+      "length": 22.27,
+      "rotation": 133.5,
+      "x": 20.06
+    },
+    {
+      "name": "YingXiong_Hand_R",
+      "parent": "bone_YingXiong_Sword",
+      "rotation": 90,
+      "color": "ff3f00ff"
+    },
+    {
+      "name": "bone_YingXiong_Arm_R",
+      "parent": "bone_YingXiong_Body",
+      "length": 21.7,
+      "rotation": -135.09,
+      "x": 45.35,
+      "y": -8.29
+    },
+    {
+      "name": "bone_YingXiong_Forearm_R",
+      "parent": "bone_YingXiong_Arm_R",
+      "length": 23.26,
+      "rotation": -135.03,
+      "x": 21.7
+    },
+    {
+      "name": "bone_YingXiong_House1",
+      "parent": "bone_YingXiong",
+      "length": 17.93,
+      "rotation": 90,
+      "x": -40.5
+    },
+    {
+      "name": "bone_YingXiong_House2",
+      "parent": "bone_YingXiong",
+      "length": 16.25,
+      "rotation": 90,
+      "x": 10
+    },
+    {
+      "name": "bone_YingXiong_House3",
+      "parent": "bone_YingXiong",
+      "length": 26.19,
+      "rotation": 90,
+      "x": 38
+    }
+  ],
+  "slots": [
+    {
+      "name": "YingXiong_House3",
+      "bone": "bone_YingXiong_House3",
+      "attachment": "YingXiong_House3"
+    },
+    {
+      "name": "YingXiong_House2",
+      "bone": "bone_YingXiong_House2",
+      "attachment": "YingXiong_House2"
+    },
+    {
+      "name": "YingXiong_House1",
+      "bone": "bone_YingXiong_House1",
+      "attachment": "YingXiong_House1"
+    },
+    {
+      "name": "YingXiong_Body",
+      "bone": "bone_YingXiong_Body",
+      "attachment": "YingXiong_Body"
+    },
+    {
+      "name": "YingXiong_Sword",
+      "bone": "bone_YingXiong_Sword",
+      "attachment": "YingXiong_Sword"
+    },
+    {
+      "name": "YingXiong_Forearm_L",
+      "bone": "bone_YingXiong_Forearm_L",
+      "attachment": "YingXiong_Forearm_L"
+    },
+    {
+      "name": "YingXiong_Arm_L",
+      "bone": "bone_YingXiong_Arm_L",
+      "attachment": "YingXiong_Arm_L"
+    },
+    {
+      "name": "YingXiong_Forearm_R",
+      "bone": "bone_YingXiong_Forearm_R",
+      "attachment": "YingXiong_Forearm_R"
+    },
+    {
+      "name": "YingXiong_Arm_R",
+      "bone": "bone_YingXiong_Arm_R",
+      "attachment": "YingXiong_Arm_R"
+    },
+    {
+      "name": "YingXiong_Hand",
+      "bone": "bone_YingXiong_Sword",
+      "attachment": "YingXiong_Hand"
+    }
+  ],
+  "ik": [
+    {
+      "name": "Hand_L",
+      "bones": [
+        "bone_YingXiong_Arm_L",
+        "bone_YingXiong_Forearm_L"
+      ],
+      "target": "YingXiong_Hand_L"
+    },
+    {
+      "name": "Hand_R",
+      "order": 1,
+      "bones": [
+        "bone_YingXiong_Arm_R",
+        "bone_YingXiong_Forearm_R"
+      ],
+      "target": "YingXiong_Hand_R",
+      "bendPositive": false
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "YingXiong_Arm_L": {
+          "YingXiong_Arm_L": {
+            "x": 5.91,
+            "y": -2.72,
+            "rotation": 134.94,
+            "width": 16,
+            "height": 17
+          }
+        },
+        "YingXiong_Arm_R": {
+          "YingXiong_Arm_R": {
+            "x": 6.56,
+            "y": 2.6,
+            "rotation": 46.38,
+            "width": 16,
+            "height": 17
+          }
+        },
+        "YingXiong_Body": {
+          "YingXiong_Body": {
+            "x": 26.9,
+            "y": 0.3,
+            "rotation": -90,
+            "width": 32,
+            "height": 68
+          }
+        },
+        "YingXiong_Forearm_L": {
+          "YingXiong_Forearm_L": {
+            "x": 10.04,
+            "y": 1.64,
+            "rotation": 1.2,
+            "width": 22,
+            "height": 10
+          }
+        },
+        "YingXiong_Forearm_R": {
+          "YingXiong_Forearm_R": {
+            "x": 10.6,
+            "y": -2.1,
+            "rotation": -179.12,
+            "width": 22,
+            "height": 10
+          }
+        },
+        "YingXiong_Hand": {
+          "YingXiong_Hand": {
+            "x": -0.4,
+            "y": 0.7,
+            "rotation": 90,
+            "width": 8,
+            "height": 7
+          }
+        },
+        "YingXiong_House1": {
+          "YingXiong_House1": {
+            "x": 5.4,
+            "y": -0.5,
+            "rotation": -90,
+            "width": 12,
+            "height": 25
+          }
+        },
+        "YingXiong_House2": {
+          "YingXiong_House2": {
+            "x": 4.4,
+            "y": -0.5,
+            "rotation": -90,
+            "width": 21,
+            "height": 23
+          }
+        },
+        "YingXiong_House3": {
+          "YingXiong_House3": {
+            "x": 14.4,
+            "y": 1,
+            "rotation": -90,
+            "width": 30,
+            "height": 43
+          }
+        },
+        "YingXiong_Sword": {
+          "YingXiong_Sword": {
+            "x": 12.1,
+            "y": -0.3,
+            "rotation": 90,
+            "width": 12,
+            "height": 44
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "hit": {
+      "bones": {
+        "bone_YingXiong_Sword": {
+          "translate": [
+            {
+              "curve": [
+                0.051,
+                0,
+                0.124,
+                0,
+                0.051,
+                0,
+                0.124,
+                0.24
+              ]
+            },
+            {
+              "time": 0.2,
+              "y": 0.5,
+              "curve": [
+                0.274,
+                0,
+                0.35,
+                0,
+                0.274,
+                3.59,
+                0.35,
+                6.93
+              ]
+            },
+            {
+              "time": 0.4,
+              "y": 6.93,
+              "curve": [
+                0.425,
+                0,
+                0.475,
+                0,
+                0.425,
+                6.93,
+                0.475,
+                -2
+              ]
+            },
+            {
+              "time": 0.5,
+              "y": -2,
+              "curve": [
+                0.525,
+                0,
+                0.575,
+                0,
+                0.525,
+                -2,
+                0.575,
+                0.5
+              ]
+            },
+            {
+              "time": 0.6,
+              "y": 0.5,
+              "curve": [
+                0.633,
+                0,
+                0.7,
+                0,
+                0.633,
+                0.5,
+                0.7,
+                0
+              ]
+            },
+            {
+              "time": 0.7333
+            }
+          ]
+        },
+        "bone_YingXiong_Arm_L": {
+          "rotate": [
+            {
+              "value": -0.99
+            }
+          ],
+          "translate": [
+            {
+              "curve": [
+                0.1,
+                0,
+                0.3,
+                0.67,
+                0.1,
+                0,
+                0.3,
+                0
+              ]
+            },
+            {
+              "time": 0.4,
+              "x": 0.67,
+              "curve": [
+                0.417,
+                0.67,
+                0.45,
+                -0.53,
+                0.417,
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "time": 0.4667,
+              "x": -0.53,
+              "curve": [
+                0.492,
+                -0.53,
+                0.542,
+                -0.16,
+                0.492,
+                0,
+                0.542,
+                0
+              ]
+            },
+            {
+              "time": 0.5667,
+              "x": -0.16,
+              "curve": [
+                0.6,
+                -0.16,
+                0.667,
+                0,
+                0.6,
+                0,
+                0.667,
+                0
+              ]
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "bone_YingXiong_Arm_R": {
+          "rotate": [
+            {
+              "value": -1.3
+            }
+          ],
+          "translate": [
+            {
+              "curve": [
+                0.1,
+                0,
+                0.3,
+                0.67,
+                0.1,
+                0,
+                0.3,
+                0
+              ]
+            },
+            {
+              "time": 0.4,
+              "x": 0.67,
+              "curve": [
+                0.417,
+                0.67,
+                0.45,
+                -0.53,
+                0.417,
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "time": 0.4667,
+              "x": -0.53,
+              "curve": [
+                0.492,
+                -0.53,
+                0.542,
+                -0.16,
+                0.492,
+                0,
+                0.542,
+                0
+              ]
+            },
+            {
+              "time": 0.5667,
+              "x": -0.16,
+              "curve": [
+                0.6,
+                -0.16,
+                0.667,
+                0,
+                0.6,
+                0,
+                0.667,
+                0
+              ]
+            },
+            {
+              "time": 0.7
+            }
+          ]
+        },
+        "bone_YingXiong_Body": {
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                0.35,
+                0,
+                0.383,
+                0,
+                0.35,
+                0,
+                0.383,
+                -0.3
+              ]
+            },
+            {
+              "time": 0.4,
+              "y": -0.3,
+              "curve": [
+                0.425,
+                0,
+                0.475,
+                0,
+                0.425,
+                -0.3,
+                0.475,
+                0.1
+              ]
+            },
+            {
+              "time": 0.5,
+              "y": 0.1,
+              "curve": [
+                0.533,
+                0,
+                0.6,
+                0,
+                0.533,
+                0.1,
+                0.6,
+                0
+              ]
+            },
+            {
+              "time": 0.6333
+            }
+          ]
+        },
+        "bone_YingXiong_House2": {
+          "translate": [
+            {
+              "time": 0.5,
+              "curve": [
+                0.525,
+                0,
+                0.575,
+                0,
+                0.525,
+                0,
+                0.575,
+                5
+              ]
+            },
+            {
+              "time": 0.6,
+              "y": 5,
+              "curve": [
+                0.633,
+                0,
+                0.7,
+                0,
+                0.633,
+                5,
+                0.7,
+                -2
+              ]
+            },
+            {
+              "time": 0.7333,
+              "y": -2,
+              "curve": [
+                0.775,
+                0,
+                0.858,
+                0,
+                0.775,
+                -2,
+                0.858,
+                0
+              ]
+            },
+            {
+              "time": 0.9
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.5,
+              "curve": [
+                0.525,
+                1,
+                0.575,
+                1.01,
+                0.525,
+                1,
+                0.575,
+                1.01
+              ]
+            },
+            {
+              "time": 0.6,
+              "x": 1.01,
+              "y": 1.01,
+              "curve": [
+                0.633,
+                1.01,
+                0.7,
+                0.99,
+                0.633,
+                1.01,
+                0.7,
+                0.99
+              ]
+            },
+            {
+              "time": 0.7333,
+              "x": 0.99,
+              "y": 0.99,
+              "curve": [
+                0.775,
+                0.99,
+                0.858,
+                1,
+                0.775,
+                0.99,
+                0.858,
+                1
+              ]
+            },
+            {
+              "time": 0.9
+            }
+          ]
+        },
+        "bone_YingXiong_House1": {
+          "translate": [
+            {
+              "time": 0.5667,
+              "curve": [
+                0.592,
+                0,
+                0.642,
+                0,
+                0.592,
+                0,
+                0.642,
+                5
+              ]
+            },
+            {
+              "time": 0.6667,
+              "y": 5,
+              "curve": [
+                0.7,
+                0,
+                0.767,
+                0,
+                0.7,
+                5,
+                0.767,
+                -2
+              ]
+            },
+            {
+              "time": 0.8,
+              "y": -2,
+              "curve": [
+                0.842,
+                0,
+                0.925,
+                0,
+                0.842,
+                -2,
+                0.925,
+                0
+              ]
+            },
+            {
+              "time": 0.9667
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.5667,
+              "curve": [
+                0.592,
+                1,
+                0.642,
+                1.01,
+                0.592,
+                1,
+                0.642,
+                1.01
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1.01,
+              "y": 1.01,
+              "curve": [
+                0.7,
+                1.01,
+                0.767,
+                0.99,
+                0.7,
+                1.01,
+                0.767,
+                0.99
+              ]
+            },
+            {
+              "time": 0.8,
+              "x": 0.99,
+              "y": 0.99,
+              "curve": [
+                0.842,
+                0.99,
+                0.925,
+                1,
+                0.842,
+                0.99,
+                0.925,
+                1
+              ]
+            },
+            {
+              "time": 0.9667
+            }
+          ]
+        },
+        "bone_YingXiong_House3": {
+          "translate": [
+            {
+              "time": 0.6333,
+              "curve": [
+                0.658,
+                0,
+                0.708,
+                0,
+                0.658,
+                0,
+                0.708,
+                5
+              ]
+            },
+            {
+              "time": 0.7333,
+              "y": 5,
+              "curve": [
+                0.767,
+                0,
+                0.833,
+                0,
+                0.767,
+                5,
+                0.833,
+                -2
+              ]
+            },
+            {
+              "time": 0.8667,
+              "y": -2,
+              "curve": [
+                0.908,
+                0,
+                0.992,
+                0,
+                0.908,
+                -2,
+                0.992,
+                0
+              ]
+            },
+            {
+              "time": 1.0333
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.6333,
+              "curve": [
+                0.658,
+                1,
+                0.708,
+                1.01,
+                0.658,
+                1,
+                0.708,
+                1.01
+              ]
+            },
+            {
+              "time": 0.7333,
+              "x": 1.01,
+              "y": 1.01,
+              "curve": [
+                0.767,
+                1.01,
+                0.833,
+                0.99,
+                0.767,
+                1.01,
+                0.833,
+                0.99
+              ]
+            },
+            {
+              "time": 0.8667,
+              "x": 0.99,
+              "y": 0.99,
+              "curve": [
+                0.908,
+                0.99,
+                0.992,
+                1,
+                0.908,
+                0.99,
+                0.992,
+                1
+              ]
+            },
+            {
+              "time": 1.0333
+            }
+          ]
+        },
+        "bone_YingXiong_Forearm_L": {
+          "rotate": [
+            {
+              "value": 0.23
+            }
+          ]
+        },
+        "bone_YingXiong_Forearm_R": {
+          "rotate": [
+            {
+              "value": 0.53
+            }
+          ],
+          "scale": [
+            {
+              "time": 1.0667
+            }
+          ]
+        }
+      }
+    }
+  }
+}
